@@ -113,3 +113,6 @@ console.log(fizzbuzz("15"))
 console.log(fizzbuzz("5"))
 console.log(fizzbuzz("7"))
 console.log(fizzbuzz("6"))
+
+process.stdin.on("data", fizzbuzz) // inputs data from outside of 
+// node into fizzbuzz
